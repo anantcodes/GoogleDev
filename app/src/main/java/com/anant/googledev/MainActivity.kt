@@ -1,6 +1,7 @@
 package com.anant.googledev
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -20,5 +21,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DisplayActivity::class.java)
             startActivity(intent)
         }
+
+//
+//        btnSearch.setOnClickListener {
+//            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://ideone.com")))
+//        }
+
+
     }
 }
